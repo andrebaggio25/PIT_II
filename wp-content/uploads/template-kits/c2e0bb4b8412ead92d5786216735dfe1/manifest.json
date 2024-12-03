@@ -1,0 +1,1333 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "DailyMart - Template kit for Grocery Shop",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Single Product",
+            "screenshot": "screenshots\/dailymart-single-product.jpg",
+            "source": "templates\/dailymart-single-product.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-single-product",
+            "type": "product",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product",
+                "elementor_pro_conditions": [
+                    "include\/product"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product\" template for Elementor Pro.",
+                    "This template will display on: Products."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Menu",
+            "screenshot": "screenshots\/dailymart-menu.jpg",
+            "source": "templates\/dailymart-menu.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-menu",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Footer",
+            "screenshot": "screenshots\/dailymart-footer.jpg",
+            "source": "templates\/dailymart-footer.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Archive blog",
+            "screenshot": "screenshots\/dailymart-archive-blog.jpg",
+            "source": "templates\/dailymart-archive-blog.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Single post",
+            "screenshot": "screenshots\/dailymart-single-post.jpg",
+            "source": "templates\/dailymart-single-post.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Error 404",
+            "screenshot": "screenshots\/dailymart-error-404.jpg",
+            "source": "templates\/dailymart-error-404.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Product Archive",
+            "screenshot": "screenshots\/dailymart-product-archive.jpg",
+            "source": "templates\/dailymart-product-archive.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-product-archive",
+            "type": "product-archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-product",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "product-archive",
+                "elementor_pro_conditions": [
+                    "include\/product_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Product Archive\" template for Elementor Pro.",
+                    "This template will display on: All Product Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "My Account",
+            "screenshot": "screenshots\/my-account.jpg",
+            "source": "templates\/my-account.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/my-account\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Login page",
+            "screenshot": "screenshots\/login-page.jpg",
+            "source": "templates\/login-page.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/login-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Cart",
+            "screenshot": "screenshots\/cart.jpg",
+            "source": "templates\/cart.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/cart\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Checkout",
+            "screenshot": "screenshots\/checkout.jpg",
+            "source": "templates\/checkout.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/template-kit\/checkout\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "DailyMart - Header",
+            "screenshot": "screenshots\/dailymart-header.jpg",
+            "source": "templates\/dailymart-header.json",
+            "preview_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/?elementor_library=dailymart-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "3.7.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.7.2",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.5",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "WooCommerce",
+            "version": "6.9.4",
+            "file": "woocommerce\/woocommerce.php",
+            "author": "Automattic"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Payment-Icon.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/Payment-Icon-800x133.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-single-product.json",
+                    "name": "DailyMart - Single Product"
+                }
+            ],
+            "filesize": 29013,
+            "dimensions": [
+                1111,
+                185
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo_dailymart_.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/Logo_dailymart_.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-footer.json",
+                    "name": "DailyMart - Footer"
+                },
+                {
+                    "source": "templates\/login-page.json",
+                    "name": "Login page"
+                },
+                {
+                    "source": "templates\/dailymart-header.json",
+                    "name": "DailyMart - Header"
+                }
+            ],
+            "filesize": 34178,
+            "dimensions": [
+                532,
+                154
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "lemon.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/lemon.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 35420,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "steak.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/steak.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 32720,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "egg.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/egg.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 26257,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "bread.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/bread.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 14373,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "coffee.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/coffee.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 22364,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "cookie.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/cookie.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 35101,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "snowflake.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/snowflake.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 29250,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "arugula.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/arugula.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-menu.json",
+                    "name": "DailyMart - Menu"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 42109,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/authors\/basic-gradient\/lineal-color"
+        },
+        {
+            "filename": "leaf_.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/leaf_-800x341.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-footer.json",
+                    "name": "DailyMart - Footer"
+                },
+                {
+                    "source": "templates\/dailymart-error-404.json",
+                    "name": "DailyMart - Error 404"
+                },
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 163133,
+            "dimensions": [
+                1698,
+                723
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pngegg.com\/en\/png-zguxu"
+        },
+        {
+            "filename": "cabbage.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/cabbage.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-footer.json",
+                    "name": "DailyMart - Footer"
+                }
+            ],
+            "filesize": 39129,
+            "dimensions": [
+                350,
+                291
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/82-fruits-berries-and-vegetables-RBWTHV"
+        },
+        {
+            "filename": "colleagues-reading-article-on-business-development.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/colleagues-reading-article-on-business-development-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-archive-blog.json",
+                    "name": "DailyMart - Archive blog"
+                }
+            ],
+            "filesize": 104350,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FFBQA4U"
+        },
+        {
+            "filename": "paper-bag-on-a-wooden-background-vegetables-from-the-store.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/paper-bag-on-a-wooden-background-vegetables-from-the-store-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-single-post.json",
+                    "name": "DailyMart - Single post"
+                }
+            ],
+            "filesize": 130071,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-WHZBHT3"
+        },
+        {
+            "filename": "Banner_img_1.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/Banner_img_1-800x390.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 52526,
+            "dimensions": [
+                985,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/delivery-concept-handsome-african-american-deliver-K327NVT"
+        },
+        {
+            "filename": "Banner_img_.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/Banner_img_-800x390.png",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 128842,
+            "dimensions": [
+                985,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/delivery-healthy-food-background-healthy-vegan-veg-KY32BF2"
+        },
+        {
+            "filename": "different-food-in-recycling-paper-bag.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/different-food-in-recycling-paper-bag-800x415.jpg",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 80996,
+            "dimensions": [
+                1280,
+                664
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-NXQD4FM"
+        },
+        {
+            "filename": "img__0006_Layer-2.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0006_Layer-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 50306,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-cheerful-european-female-with-satisfie-W73EUUE"
+        },
+        {
+            "filename": "img__0001_Layer-7.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0001_Layer-7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 41345,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/horizontal-shot-of-pleasant-looking-ginger-young-e-F9MBGAR"
+        },
+        {
+            "filename": "img__0002_Layer-6.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0002_Layer-6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/dailymart-product-archive.json",
+                    "name": "DailyMart - Product Archive"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 58477,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/carefree-attractive-girl-with-pleasant-look-enjoys-4GXJZTE"
+        },
+        {
+            "filename": "italian-food-background-at-white-bkitchen-table.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/italian-food-background-at-white-bkitchen-table-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 170202,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-8ESMXLG"
+        },
+        {
+            "filename": "different-vegetables-and-fruits-on-white-background-top-view.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/different-vegetables-and-fruits-on-white-background-top-view-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/login-page.json",
+                    "name": "Login page"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 143133,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-LBCHF9A"
+        },
+        {
+            "filename": "avocado-and-tuna-fresh-vegetable-salad.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/avocado-and-tuna-fresh-vegetable-salad-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 249091,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-HT84S2F"
+        },
+        {
+            "filename": "hero_bg.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/hero_bg.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 16965,
+            "dimensions": [
+                720,
+                720
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_pattern_.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/bg_pattern_.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/my-account.json",
+                    "name": "My Account"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/cart.json",
+                    "name": "Cart"
+                },
+                {
+                    "source": "templates\/checkout.json",
+                    "name": "Checkout"
+                }
+            ],
+            "filesize": 44233,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "paper-bag-and-different-food-isolated-on-white-background.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/paper-bag-and-different-food-isolated-on-white-background-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 92295,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2F55SMA"
+        },
+        {
+            "filename": "group-of-volunteers-in-community-charity-donation-center-food-bank-and-coronavirus-concept-.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/group-of-volunteers-in-community-charity-donation-center-food-bank-and-coronavirus-concept--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 172233,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KPHN842"
+        },
+        {
+            "filename": "logo-1.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2063,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 1811,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-3.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/logo-3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2079,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-4.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2193,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-5.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/logo-5.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 2300,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-11.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/logo-11.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 1900,
+            "dimensions": [
+                178,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "online-grocery-healthy-food-shopping-during-pandemic-of-coronavirus.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/online-grocery-healthy-food-shopping-during-pandemic-of-coronavirus-800x384.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 107914,
+            "dimensions": [
+                1280,
+                615
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-ACHT4UU"
+        },
+        {
+            "filename": "courier-delivering-groceries-for-a-couple-home.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/courier-delivering-groceries-for-a-couple-home-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 153515,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Z5HPNG9"
+        },
+        {
+            "filename": "img__0004_Layer-4.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0004_Layer-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 40613,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-shot-of-handsome-self-confident-cheerful--BUTM9PX"
+        },
+        {
+            "filename": "img__0003_Layer-5.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0003_Layer-5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 47988,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/joyful-freckled-teenager-wears-round-transparent-g-EPRUCGN"
+        },
+        {
+            "filename": "img__0000_Layer-8.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0000_Layer-8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 33914,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/optimistic-positive-handsome-bearded-man-FXXXGY4"
+        },
+        {
+            "filename": "img__0007_Layer-1.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0007_Layer-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 42410,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pleased-cheerful-redhaired-male-with-pleasant-smil-CCXAYZL"
+        },
+        {
+            "filename": "img__0005_Layer-3.jpg",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/img__0005_Layer-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 43481,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-confident-male-entrepreneur-with-postive-smi-BDAU9DK"
+        },
+        {
+            "filename": "garlic.png",
+            "thumbnail_url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/garlic.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 33862,
+            "dimensions": [
+                350,
+                267
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/82-fruits-berries-and-vegetables-RBWTHV"
+        }
+    ]
+}

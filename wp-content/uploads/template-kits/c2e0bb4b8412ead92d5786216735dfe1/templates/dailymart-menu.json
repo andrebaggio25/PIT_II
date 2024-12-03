@@ -1,0 +1,814 @@
+{
+    "version": "0.4",
+    "title": "DailyMart &#8211; Menu",
+    "type": "popup",
+    "metadata": {
+        "template_type": "section-popup",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "popup",
+        "additional_template_information": [
+            "This is a \"Popup\" template for Elementor Pro."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "405247ac",
+            "settings": {
+                "padding": {
+                    "unit": "em",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "7d22ffff",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "padding": {
+                            "unit": "em",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "10a1e6e6",
+                            "settings": [],
+                            "elements": [
+                                {
+                                    "id": "604187e",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "space_between_widgets": 7,
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "1",
+                                            "left": "0",
+                                            "isLinked": false
+                                        },
+                                        "padding": {
+                                            "unit": "em",
+                                            "top": "2",
+                                            "right": "2",
+                                            "bottom": "2",
+                                            "left": "2",
+                                            "isLinked": true
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "em",
+                                            "top": "",
+                                            "right": "",
+                                            "bottom": "",
+                                            "left": "",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "em",
+                                            "top": "",
+                                            "right": "",
+                                            "bottom": "",
+                                            "left": "",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "border_color": "globals\/colors?id=4d462f5"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "6ccc7d25",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/Logo_dailymart_.png",
+                                                    "id": 172,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "image_size": "custom",
+                                                "image_custom_dimension": {
+                                                    "width": "",
+                                                    "height": "49"
+                                                },
+                                                "align": "left",
+                                                "_margin": {
+                                                    "unit": "em",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "2",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_margin_tablet": {
+                                                    "unit": "em",
+                                                    "top": "",
+                                                    "right": "",
+                                                    "bottom": "",
+                                                    "left": "",
+                                                    "isLinked": true
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "em",
+                                                    "top": "",
+                                                    "right": "",
+                                                    "bottom": "",
+                                                    "left": "",
+                                                    "isLinked": true
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1b901171",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/lemon.png",
+                                                    "id": 93,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Fruits & Vegetables",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "70487ef8",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/steak.png",
+                                                    "id": 95,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Meats & Seafood",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "12691e89",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/egg.png",
+                                                    "id": 92,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Breakfast & Dairy",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "4139dab5",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/bread.png",
+                                                    "id": 90,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Breads & Bakery",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "15a8c61c",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/coffee.png",
+                                                    "id": 91,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Beverages",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5d3ecc28",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/cookie.png",
+                                                    "id": 106,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Biscuits & Snacks",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "480f2d35",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/snowflake.png",
+                                                    "id": 94,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Frozen Foods",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "763b9703",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/fullkit.moxcreative.com\/dailymart\/wp-content\/uploads\/sites\/19\/2022\/10\/arugula.png",
+                                                    "id": 89,
+                                                    "alt": "",
+                                                    "source": "library"
+                                                },
+                                                "title_text": "Grocery & Staples",
+                                                "description_text": "",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": "",
+                                                    "custom_attributes": ""
+                                                },
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "image_space": {
+                                                    "unit": "px",
+                                                    "size": 21,
+                                                    "sizes": []
+                                                },
+                                                "image_size": {
+                                                    "unit": "%",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "image_size_mobile": {
+                                                    "unit": "%",
+                                                    "size": 35,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width_mobile": "initial",
+                                                "_element_custom_width_mobile": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "title_typography_typography": "globals\/typography?id=520c191",
+                                                    "title_color": "globals\/colors?id=secondary"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "414a85e7",
+                            "settings": {
+                                "border_border": "solid",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "1",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "4d9ab778",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "padding": {
+                                            "unit": "em",
+                                            "top": "2",
+                                            "right": "2",
+                                            "bottom": "2",
+                                            "left": "2",
+                                            "isLinked": true
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "em",
+                                            "top": "",
+                                            "right": "",
+                                            "bottom": "",
+                                            "left": "",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "em",
+                                            "top": "",
+                                            "right": "",
+                                            "bottom": "",
+                                            "left": "",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "46971190",
+                                            "settings": {
+                                                "layout": "dropdown",
+                                                "pointer": "none",
+                                                "submenu_icon": {
+                                                    "value": "fas fa-angle-down",
+                                                    "library": "fa-solid"
+                                                },
+                                                "toggle_align": "left",
+                                                "padding_horizontal_menu_item": {
+                                                    "unit": "px",
+                                                    "size": 0,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "menu_typography_typography": "globals\/typography?id=520c191",
+                                                    "dropdown_typography_typography": "globals\/typography?id=520c191",
+                                                    "dropdown_divider_color": "globals\/colors?id=4d462f5",
+                                                    "color_dropdown_item": "globals\/colors?id=secondary",
+                                                    "color_dropdown_item_hover": "globals\/colors?id=044b931"
+                                                },
+                                                "toggle": "",
+                                                "background_color_dropdown_item": "#02010100",
+                                                "background_color_dropdown_item_hover": "#02010100",
+                                                "padding_horizontal_dropdown_item": {
+                                                    "unit": "px",
+                                                    "size": 0,
+                                                    "sizes": []
+                                                },
+                                                "dropdown_divider_width": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "nav-menu",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "61f2c863",
+                                            "settings": {
+                                                "selected_icon": {
+                                                    "value": "icon icon-phone1",
+                                                    "library": "ekiticons"
+                                                },
+                                                "title_text": "Need help? Call us",
+                                                "description_text": "888-700-234",
+                                                "position": "left",
+                                                "title_size": "div",
+                                                "icon_space": {
+                                                    "unit": "px",
+                                                    "size": 14,
+                                                    "sizes": []
+                                                },
+                                                "icon_size": {
+                                                    "unit": "px",
+                                                    "size": 42,
+                                                    "sizes": []
+                                                },
+                                                "content_vertical_alignment": "middle",
+                                                "__globals__": {
+                                                    "primary_color": "globals\/colors?id=044b931",
+                                                    "title_typography_typography": "globals\/typography?id=112b6c4",
+                                                    "description_typography_typography": "globals\/typography?id=83682a1",
+                                                    "description_color": "globals\/colors?id=d49ac81"
+                                                },
+                                                "position_mobile": "left"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-box",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "width": {
+            "unit": "px",
+            "size": 360,
+            "sizes": []
+        },
+        "height_type": "fit_to_screen",
+        "horizontal_position": "left",
+        "entrance_animation": "fadeInLeft",
+        "exit_animation": "fadeInLeft",
+        "close_button_background_color": "#02010100",
+        "close_button_hover_background_color": "#02010100",
+        "icon_size": {
+            "unit": "px",
+            "size": 28,
+            "sizes": []
+        },
+        "__globals__": {
+            "close_button_color": "globals\/colors?id=d49ac81",
+            "close_button_hover_color": "globals\/colors?id=332724a"
+        },
+        "entrance_animation_duration": {
+            "unit": "px",
+            "size": 0.59999999999999997779553950749686919152736663818359375,
+            "sizes": []
+        }
+    }
+}
